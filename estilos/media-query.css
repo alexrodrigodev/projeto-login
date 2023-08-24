@@ -5,8 +5,10 @@
         background-image: linear-gradient(to top, rgb(231, 231, 231), rgba(40, 75, 40, 0.438));
     }
     
+
     section#login {
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -19,6 +21,15 @@
         float: right;
         width: 70%;
     }
+
+    div#formulario > h1 {
+        font-size: 1.9em;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -28,6 +39,7 @@
     
     section#login {
         width: 950px;
+        height: 370px;
     }
     
     section#login > div#imagem {
@@ -46,6 +58,7 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin: 20px 0px;
     }
 }
